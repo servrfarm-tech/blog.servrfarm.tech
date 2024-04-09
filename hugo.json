@@ -37,7 +37,9 @@
             "name": "Blog"
          },
          {
-            "name": "About"
+            "name": "About",
+            "weight": 1,
+            "url": "about/"
          }
       ]
    }
