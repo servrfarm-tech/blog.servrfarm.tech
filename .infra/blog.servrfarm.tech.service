@@ -1,0 +1,14 @@
+[Unit]
+Description=Hugo site for blog.servrfarm.tech
+Documentation=https://github.com/servr-farm-tech/blog.servrfarm.tech
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/snap/bin/hugo server --port 12721 --bind 127.0.0.1
+WorkingDirectory=/home/prashant-warrier/blog.servrfarm.tech
+User=prashant-warrier
+Group=prashant-warrier
+
+[Install]
+WantedBy=multi-user.target  # Customize based on when you want your service to start
