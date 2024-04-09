@@ -22,6 +22,12 @@
             "name": "GitHub",
             "icon": "fa-brands fa-github fa-2x",
             "url": "https://github.com/ghosthawkOne"
+         },
+         {
+            "name": "LinkedIn",
+            "icon": "fa-brands fa-linkedin fa-2x",
+            "url": "https://www.linkedin.com/in/prashantwarrier/"
+
          }
       ]
    },
