@@ -1,5 +1,44 @@
 {
-   "baseURL": "https://example.org/",
+   "baseURL": "https://blog.servrfarm.tech/",
    "languageCode": "en-us",
-   "title": "My New Hugo Site"
+   "title": "The servrfarm.tech blog",
+   "theme": "hugo-coder",
+   "paginate": 20,
+   "markup": {
+      "highlight": {
+         "style": "github-dark"
+      }
+   },
+   "params": {
+      "author": "Prashant Warrier",
+      "info": "Infrastructure Engineer / DevOps / SRE",
+      "description": "The servrfarm.tech blog",
+      "keywords": "blog,personal,devops,infrastructure,cloud,kubernetes,logging,observability",
+      "colorScheme": "auto",
+      "gravatar": "pwarrier3@gmail.com",
+      "since": "April 2024",
+      "social": [
+         {
+            "name": "GitHub",
+            "icon": "fa-brands fa-github fa-2x",
+            "url": "https://github.com/ghosthawkOne"
+         },
+         {
+            "name": "LinkedIn",
+            "icon": "fa-brands fa-linkedin fa-2x",
+            "url": "https://www.linkedin.com/in/prashantwarrier/"
+
+         }
+      ]
+   },
+   "menu": {
+      "main": [
+         {
+            "name": "Blog"
+         },
+         {
+            "name": "About"
+         }
+      ]
+   }
 }
