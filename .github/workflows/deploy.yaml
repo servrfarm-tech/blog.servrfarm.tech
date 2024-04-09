@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - "main"
+    tags-ignore:
+      - "*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to VM
+    steps:
+      - id: print-starting
+        run: |
+          echo "Starting deployment"
